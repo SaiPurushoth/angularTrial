@@ -1,0 +1,31 @@
+*{
+    text-align: center;
+}
+.layout{
+    background-color: burlywood;
+    margin: 50px;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding: 30px;
+    border-radius: 5px;
+}
+nav {
+    border: 1px;
+    background-color:chocolate;
+    color: white;
+    padding: 6px;
+}
+ 
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+a:hover{
+    color: black;
+}
+app-employeelist{
+    text-align: left;
+}

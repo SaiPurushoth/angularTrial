@@ -1,0 +1,11 @@
+<p>Rupees: <small>{{number | rupees }}</small> </p>
+
+<input type="text" [(ngModel)]="number" placeholder="Enter dollars" onfocus="this.value=''"> 
+
+<p>Fahrenheit: <small>{{unitF | fahrenheit}}</small> </p>
+
+<input type="text" [(ngModel)]="unitF" placeholder="Enter celsius"onfocus="this.value=''">
+
+<p>Celsius: <small>{{unitC | celsius}}</small> </p>
+
+<input type="text" [(ngModel)]="unitC" placeholder="Enter fahrenheit"onfocus="this.value=''">

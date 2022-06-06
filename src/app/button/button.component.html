@@ -1,0 +1,21 @@
+
+<h1 class="{{color}}">Numbers in color</h1>
+
+
+<h1 [ngClass]="obj">ODD AND EVEN</h1>
+
+<button (click)="display()">show results</button>
+
+<div *ngFor = "let num of numbers">
+
+    <div *ngIf = "num%2===0;then  thenBlock; else elseBlock"></div>
+
+    <ng-template #thenBlock>
+          <h2  class="blue">number {{num}}</h2>
+     </ng-template>
+     <ng-template #elseBlock>
+           <h2 class="green">number {{num}}</h2>
+    </ng-template>
+
+
+</div>
